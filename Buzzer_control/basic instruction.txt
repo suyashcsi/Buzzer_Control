@@ -1,0 +1,23 @@
+The possible commands are below,
+
+digitalWrite
+analogWrite
+pin - pin number where you want to send the command. It could be
+
+A0, 0, 1, 2, 3, 4
+value - The state of the pin. It could be
+
+HIGH - For digital pins
+LOW - For digital pins
+0-255 - For analog pin
+Here is the full code for the change the frequency of a buzzer given below :-
+
+/* BUZZER ALERT */
+
+BUZZER ALERT ON OFF
+Here in the button “ON” ,
+analogWrite(0, 250) i.e. 0 is the pin number and 250 is the value.
+So, you can give any value in between 0-255 in place of “250”.
+And in the button “OFF”
+analogWrite(0, 0) i.e. the pin number is 0 and the value also must be 0 so when you click on the “OFF” button there should not be any sound from the Buzzer.
+
